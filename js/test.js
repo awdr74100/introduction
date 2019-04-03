@@ -6,8 +6,8 @@ a.addEventListener("mouseup",bt2,false);
 
 function bt1 (){
     b.textContent = "還沒開始更新拉 幹!";
-    
-    b.className = "bbb";
+    a.textContent = "返回";
+    b.className = "title1";
     
 }
 function bt2 (){
