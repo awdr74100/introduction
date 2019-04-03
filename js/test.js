@@ -14,4 +14,6 @@ function bt2 (){
     b.textContent = "藍奕濡的個人介紹網站";
     a.textContent = "看更多";
     b.className = "title";
+
+    
 }
