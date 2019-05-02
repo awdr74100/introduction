@@ -419,6 +419,18 @@ img {
     line-height: 22px;
 }
 
+@media(max-width:768px){
+    .photo{
+        width: 48%;
+        margin-left: 2%;
+    }
+    .ex{
+        width:48%;
+        margin-right: 2%;
+        margin-top: 49px;
+    }
+}
+
 @media(max-width:480px){
     .content2{
         height: auto;
@@ -438,17 +450,7 @@ img {
     }
 }
 
-@media(max-width:768px){
-    .photo{
-        width: 48%;
-        margin-left: 2%;
-    }
-    .ex{
-        width:48%;
-        margin-right: 2%;
-        margin-top: 49px;
-    }
-}
+
 
 /* content2 end */
 
