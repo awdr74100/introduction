@@ -657,7 +657,9 @@ img {
     float: left;
     width: 46%;
     height: 388px;
-    background: url(../img/Map.png) no-repeat center center;
+    background: url(../img/Map@2x.png) no-repeat center center ;
+    background-size: 462px 388px;
+    
     margin-left: 4%;
     margin-top: 88px;
 }
@@ -686,9 +688,11 @@ img {
     border: 1px solid #CCCCCC;
     box-shadow: inset 0px 1px 0px 0px #ECECEC;
     border-radius: 3px;
+    padding-left: 14px;
     width: 100%;
     height: 32px;
     font-size: 16px;
+    color: #4A4A4A ;
 }
 
 #yes{
@@ -857,7 +861,11 @@ img {
 
 /* footer end */
 
-/* page2  start*/
+
+
+
+
+/* page[login]  start*/
 
 /* login start */
 
@@ -909,7 +917,7 @@ img {
     margin-left: 15px;
 }
 .login .td1 #email{
-    width: 270px;
+    width: 90%;
     height: 32px;
     margin-left: 15px;
     margin-top: 3px;
@@ -924,7 +932,7 @@ img {
     border-radius: 3px;
 }
 .login .td1 #password{
-    width: 270px;
+    width: 90%;
     height: 32px;
     margin-left: 15px;
     margin-top: 3px;
@@ -953,7 +961,7 @@ img {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    width: 125px;
+    width: 40%;
     height: 32px;;
     background: rgba(0,0,0,0.35);
     border-radius: 3px;
@@ -965,7 +973,7 @@ img {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    width: 125px;
+    width: 40%;
     height: 32px;
     background: #F56C23;
     border-radius: 3px;
@@ -980,13 +988,14 @@ img {
     }
 }
 
-/* page2 end */
-
 /* login end */
 
+/* page[login]  end*/
  
 
-/* page3 start */
+
+
+/* page[register] start */
 
 /* register start */
 
@@ -1061,7 +1070,7 @@ img {
 }
 
 .register .td1 #email{
-    max-width: 270px;
+    width: 95%;
     height: 32px;
     margin-top: 3px;
     background-image: url(../img/email.svg);
@@ -1075,7 +1084,7 @@ img {
 }
 
 .register .td1 #password{
-    width: 270px;
+    width: 95%;
     height: 32px;
     margin-top: 3px;
     background-image: url(../img/lock.svg);
@@ -1090,7 +1099,7 @@ img {
 }
 
 .register .td1 #check{
-    width: 270px;
+    width: 95%;
     height: 32px;
     margin-top: 15px;
     background-image: url(../img/lock.svg);
@@ -1155,14 +1164,17 @@ img {
         margin-bottom: 20px;
     }
 }
-/* page3 end */
 
 /* register end */
 
-/* page4 start */
+/* page[register] end */
+
+
+
+
+/* page[cart] start */
 
 /* cart start */
-
 
 /* left-menu start */
 
@@ -1240,6 +1252,8 @@ img {
     width: 90%;
     border: 2px solid #3D1101;
     background-color: #efe9e7;
+    font-size: 16px;
+    padding-left: 14px;
 }
 
 .right-search #submit{
@@ -1682,3 +1696,7 @@ img {
 }
 
 /* right-content end */
+
+/* cart end */
+
+/* page[cart] end */
