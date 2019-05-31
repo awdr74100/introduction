@@ -1,34 +1,22 @@
 $(document).ready(function () {
-    $(".showmenu").on("click", function (e) {
+    $(".mobile-icon").on("click", function (e) {
         e.preventDefault();
-        $("body").toggleClass("menu-show");
+        $("body").toggleClass("mobile");
     });
-    $(".icon1").on("click", function (e) {
-        $(".icon1").toggleClass("showicon1");
+    $(".js-click-1").on("click", function () {
+        $(this).toggleClass("card__icon--active");
     });
-    $(".icon2").on("click", function (e) {
-        $(".icon2").toggleClass("showicon1");
+    $(".js-click-2").on("click", function () {
+        $(this).toggleClass("card__icon--active");
     });
-    $(".icon3").on("click", function (e) {
-        $(".icon3").toggleClass("showicon1");
+    $(".js-click-3").on("click", function () {
+        $(this).toggleClass("card__icon--active");
     });
-    $(".icon4").on("click", function (e) {
-        $(".icon4").toggleClass("showicon1");
+    $(".js-click-4").on("click", function () {
+        $(this).toggleClass("card__icon--active");
     });
-    $("#btn-send").on("click", function () {
-        window.location.href = "login.html"
-    });
-    $("#sign-up").on("click", function () {
+    $(".js-link-register").on("click", function (e) {
+        e.preventDefault();
         window.location.href = "register.html"
     });
 });
-
-
-
-
-
-
-
-
-
-
